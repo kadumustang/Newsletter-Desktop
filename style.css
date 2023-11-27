@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font: Roboto;
+    color: black;
+    height: 100vh;
+    background-color: hsl(235, 18%, 26%);
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    max-width: 500px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+  
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+li {
+    padding: 8px;
+    margin: 8px;
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+form {
+    width: 100%;
+    padding: 20px;
+    margin: 0px;
+    font-size: 10px;
+    color: #36454F;
+}
+
+button {
+    padding: 18px;
+    width: 100%;
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type=email]{
+    width: 100%;
+    padding: 18px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+p{
+    margin-top: 25px;
+    font-size: 16px;
+}
+  
+h2{
+    margin-bottom: 10px;
+    padding: 0px;
+    color: hsl(231, 7%, 60%)
+} 
