@@ -11,7 +11,6 @@ body {
     height: 100vh;
     background-color: hsl(235, 18%, 26%);
     margin: 0px;
-    padding: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,7 +19,7 @@ body {
 .container {
     margin: 0 auto;
     max-width: 990px;
-    padding: 20px;
+    padding: 30px;
     background-color: white;
     border-radius: 20px;
     margin-bottom: 0px;
@@ -29,12 +28,12 @@ body {
     align-items: center;
 }
 .text_container {
-    padding: 40px;
+    padding: 50px;
 }
   
 ul{
     list-style-type: none;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 li{
@@ -86,16 +85,18 @@ p{
   
 h2{
     margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 700;
     padding: 0px;
-    color: hsl(231, 7%, 60%)
+    color: hsl(234, 29%, 20%);
 }
 
 h1{
-    font-size: 40px;
-    font-weight: 900;
+    font-size: 55px;
+    font-weight: 700;
     margin-bottom: 0px;
     padding-top: 20px;
     padding-bottom: 25px;
-    padding: 16px;
+    padding: 15px;
     color: black
 } 
